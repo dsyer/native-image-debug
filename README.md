@@ -16,6 +16,8 @@ public class CommandlinerunnerApplication {
 
 These flags work with the Community Edition too, but you won't get any local variable information.
 
+I found I needed to set `"debug.inlineValues": false` in VSCode `settings.json` otherwise stepping through the debugger would freeze.
+
 ## Build and Run
 
 First build a native image:
